@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIAC Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+
+        <h1>Web Development Quiz</h1>
+
+        <form id="quizForm">
+
+            <div class="question">
+                <h3>1. What does HTML stand for?</h3>
+
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    Hyper Text Markup Language
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    High Tech Machine Language
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    Home Tool Markup Language
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>2. Which tag creates a heading?</h3>
+
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    &lt;h1&gt;
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    &lt;p&gt;
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    &lt;div&gt;
+                </label>
+            </div>
+
+            <div class="question">
+                <h3>3. Which language is used for styling webpages?</h3>
+
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    HTML
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    CSS
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    SQL
+                </label>
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+
+</body>
+</html>
